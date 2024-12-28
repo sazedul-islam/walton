@@ -1,0 +1,90 @@
+
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#23b7a4 ;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.global{
+    margin: 0 16px;
+    padding: 10px 0;
+}
+.global h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.global p{
+    font-size: 19px;
+    font-weight: 600;
+    padding: 30px;
+    text-align: justify;
+}
+.hr-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.img-content{
+    width: 24%;
+}
+.img-content img{
+    width: 100%;
+}
+.award-content{
+    display: none;
+}
+/* Our Vision section css */
+.our-vision img{
+    width: 100%;
+}
+
+.accreditation-section{
+    padding: 20px 0;
+}
+.accreditation-section .item{
+    margin-left: 10px;
+    width: 65%;
+}
+.acc-margin{
+    margin-bottom: 25px;
+}
+.accreditation-section h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.btn-content{
+    text-align: center;
+    margin-top: 20px;
+}
+.view-btn{
+    font-size: 20px;
+    padding: 10px 30px;
+    background: #1F3C92;
+    color: #fff;
+}
+
+.custom-animate-zoomIn {
+    animation: zoomIn 2s; 
+    animation-iteration-count: 1; 
+    margin-top: 2px; 
+  }
+  .custom-animate-left {
+    animation: slideInLeft 2s; 
+    animation-iteration-count: 1; 
+    visibility: visible; 
+    margin-left: 1px;
+  }
+  .custom-animate-right{
+    animation: fadeInRight 2s;
+    animation-iteration-count: 1;
+    visibility: visible; 
+    margin-right: 1px;
+  }

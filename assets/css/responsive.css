@@ -1,0 +1,35 @@
+
+
+@media (max-width : 768){
+    
+}
+
+@media (max-width: 425px){
+	.global p{
+        padding: 10px;
+    }
+    .hr-content{
+        display: block;
+    }
+    
+    .img-content h5{
+        display: initial;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    .award-content{
+        display: initial;
+    }
+    .award-content h5{
+        text-align: center;
+    }
+    .img-content{
+        width: 100%;
+    }
+    .img-content img {
+        margin-bottom: 20px;
+    }
+    .accreditation-section .item{
+        margin-left: 40px;
+    }
+}
